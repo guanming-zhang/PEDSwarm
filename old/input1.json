@@ -1,0 +1,18 @@
+{
+  "range": [100.0,100.0],
+  "npts": [256,256],
+  "dt": 0.002,
+  "time_scheme": "predictor-corrector",
+  "n_steps": 80000,
+  "n_save": 200,
+  "bc": "periodic",
+  "iv": "random-normal",
+  "iv_srho": 0.1,
+  "T": 0.3,
+  "A": 0.1,
+  "B": 0.0,
+  "C": 0.1,
+  "K":0.1,
+  "Gamma": 1.0,
+  "compression": 1
+}
